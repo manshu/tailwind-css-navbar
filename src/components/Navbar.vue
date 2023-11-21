@@ -1,9 +1,13 @@
 <template>
     <header class="font-sans antialiased" id="app">
         <div class="flex items-center justify-between flex-wrap bg-grey-dark p-6">
-            <div class="flex">
-                <img src="src/assets/boy.svg" alt="" class="h-8 w-8">
-                <a href="#" class="no-underline text-white text-bold mt-2"><span class="font-semibold text-xl tracking-tight">ExampleCss</span></a>
+            <div class="flex items-center">
+                <img src="../assets/logo.png" alt="" class="h-8 w-8">
+                <a href="#" class="no-underline text-white text-bold mt-2">
+                    <span class="font-semibold text-xl tracking-tight">
+                        Example CSS
+                    </span>
+                </a>
             </div>
             <div class="block sm:hidden">
                 <button @click="toggle" class="flex items-center px-3 py-2 border rounded text-grey-dark-lighter border-grey-dark-light hover:text-white hover:border-white">
